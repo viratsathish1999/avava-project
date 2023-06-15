@@ -1,0 +1,83 @@
+.security_container{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 9999;
+    h2{
+       
+        letter-spacing: .6rem;
+        font-weight: 600;
+    }
+    .security_row{
+        align-items: stretch !important;
+        .security_col{
+            
+            padding: 4rem;
+            .security_card{
+                padding: 5rem 0;
+                box-shadow:inset 0px 0px 15px 0px #c4b7c0 ;
+                background-image: linear-gradient(#66038a,#66038a,#66038a,#9755a8);
+                border-left: 2px solid #fff;
+                border-top: 2px solid #fff;
+                border-bottom: 2px solid #66038a;
+                border-right: 2px solid #66038a;
+                border-radius: 1rem;
+                .security_img{
+                    align-items:start ;
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        aspect-ratio: 3/2;
+                        object-fit: contain;
+                    }
+                }
+                .security_content{
+                    padding: 1rem 0;
+                    p{
+                        padding: 2rem 1rem;
+                    }
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        border: 1px solid #fff;
+                        padding: .5rem 2rem;
+                        border-radius: 3rem;
+                    }
+                }
+            }
+        }
+    }
+    .security_para{
+        width: 80%;
+        margin: 5rem auto;
+
+    }
+}
+@media(min-width:320px){
+    .security_col{
+        width: 95%;
+        padding-bottom: 30px;
+    }
+    .security_container{
+        h2{
+            font-size: 2rem;}
+    }
+}
+@media(min-width:720px){
+    .security_col{
+        width: 45%;
+    }
+    .security_container{
+        h2{
+            font-size: 3rem;}
+    }
+}
+@media(min-width:1024px){
+    .security_col{
+        width: 33.3%;
+    }
+    .security_container{
+        h2{
+            font-size: 4rem;}
+    }
+}
